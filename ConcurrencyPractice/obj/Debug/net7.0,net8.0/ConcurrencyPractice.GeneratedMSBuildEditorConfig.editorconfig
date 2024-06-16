@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = ConcurrencyPractice
+build_property.ProjectDir = /home/wolfbinary/codingProjects/ConcurrencyCookbook/ConcurrencyPractice/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

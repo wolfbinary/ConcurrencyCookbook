@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ConcurrencyPracticeUsingUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ConcurrencyPracticeUsingUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

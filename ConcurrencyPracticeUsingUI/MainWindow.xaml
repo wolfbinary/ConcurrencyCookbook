@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="ConcurrencyPracticeUsingUI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ConcurrencyPracticeUsingUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Name="mainWindow"    
+    >
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" PointerMoved="mainStackPanel_PointerMoved" x:Name="mainStackPanel" >
+        <StackPanel Orientation="Vertical">
+            <TextBlock>6.2</TextBlock>
+            <Button x:Name="btnRecipe62pt1" Click="btnRecipe62pt1_Click">Test 6.2 pt1 Recipe</Button>
+            <CheckBox x:Name="chkRecipe62pt2" Checked="chkRecipe62pt2_Checked">Run Recipe62pt2</CheckBox>
+        </StackPanel>
+        <StackPanel Orientation="Vertical">
+            <TextBlock>6.4</TextBlock>
+            <Button x:Name="btnRecipe64pt1" Click="btnRecipe64pt1_Click">Test 6.4 pt1 Recipe</Button>
+            <Button x:Name="btnRecipe64pt2" Click="btnRecipe64pt2_Click">Test 6.4 pt2 Recipe</Button>
+            <Button x:Name="btnRecipe64pt3" Click="btnRecipe64pt3_Click">Test 6.4 pt3 Recipe</Button>
+            <CheckBox x:Name="chkRecipe64pt1" Checked="chkRecipe64pt1_Checked">Run Recipe64pt1</CheckBox>
+            <CheckBox x:Name="chkRecipe64pt2" Checked="chkRecipe64pt2_Checked">Run Recipe64pt2</CheckBox>
+        </StackPanel>
+        <StackPanel Orientation="Vertical">
+            <TextBlock>6.5</TextBlock>
+            <Button x:Name="btnRecipe65pt1" Click="btnRecipe65pt1_Click">Test Recipe65pt1</Button>
+            <CheckBox x:Name="chkRecipe65pt2" Checked="chkRecipe65pt2_Checked">Run Recipe65pt2</CheckBox>
+            <Button x:Name="btnRecipe65pt3" Click="btnRecipe65pt3_Click">Test Recipe65pt3</Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

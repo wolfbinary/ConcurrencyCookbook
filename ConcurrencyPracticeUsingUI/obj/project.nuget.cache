@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "I9zBYgt8fDtVcwKVJ4NB69aEKsG5fmyqUolF/OB6z7YTEJDdNFZHg3+JmHK5/08plau7DoZqEDrHhax1H9ozEw==",
+  "success": true,
+  "projectFilePath": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPracticeUsingUI\\ConcurrencyPracticeUsingUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.windowsappsdk\\1.4.230913002\\microsoft.windowsappsdk.1.4.230913002.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.30\\microsoft.netcore.app.runtime.win-x86.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.30\\microsoft.aspnetcore.app.runtime.win-x86.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\6.0.30\\microsoft.netcore.app.host.win-arm64.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.30\\microsoft.netcore.app.runtime.win-arm64.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.30\\microsoft.aspnetcore.app.runtime.win-x64.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.30\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.30\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.30\\microsoft.netcore.app.host.win-x64.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.30\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.30\\microsoft.netcore.app.runtime.win-x64.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.30\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.30.nupkg.sha512",
+    "C:\\Users\\Cameron.Stoner\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\6.0.30\\microsoft.netcore.app.host.win-x86.6.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}
