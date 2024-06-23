@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Diagnostics;
+using System.Security.Cryptography;
 using ConcurrencyPractice;
 
 public class Program
@@ -8,9 +10,13 @@ public class Program
 	{
 		var chapter9 = new Chapter9();
 
-		await Task.Run(async () => { await chapter9.BufferBlockProducerAsync(); });
+		var divideAndConquerArray = new DivideAndConquerArray();
+		var dirsToDivide = divideAndConquerArray.MakeFakeDirsList();
+		var dirsList = divideAndConquerArray.DivideUpArray(dirsToDivide,5);
 
-		await Task.Run(async () => { await chapter9.BufferBlockConsumerAsync(); });
+		// await Task.Run(async () => { await chapter9.BufferBlockProducerAsync(); });
+
+		// await Task.Run(async () => { await chapter9.BufferBlockConsumerAsync(); });
 
 		//await Task.Run(async () => { await chapter9.ChannelProducerAsync(); });
 

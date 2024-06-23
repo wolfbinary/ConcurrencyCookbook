@@ -19,6 +19,50 @@ namespace ConcurrencyPractice
 		private BlockingCollection<int> blockingCollection = new BlockingCollection<int>(boundedCapacity: 1);
 
 
+
+
+		/// <summary>
+		/// 9.10 pt2 Queues the sampling oldest producer asynchronous.
+		/// </summary>
+		public async Task QueueSamplingOldestProducerAsync()
+		{
+			var queue = Channel.CreateBounded<int>(
+				new BoundedChannelOptions(1)
+				{
+					FullMode = BoundedChannelFullMode.DropWrite
+				});
+
+			var writer = queue.Writer; ;
+
+			//this write completes immediately.
+			await writer.WriteAsync(7);
+
+			//completes immediately
+			//7 is discarded unless a consumer has already retrieved it
+			await writer.WriteAsync(13);
+		}
+
+		/// <summary>
+		/// 9.10 pt1 Queues the sampling producer asynchronous.
+		/// </summary>
+		public async Task QueueSamplingNewestProducerAsync()
+		{
+			var queue = Channel.CreateBounded<int>(
+				new BoundedChannelOptions(1)
+				{
+					FullMode = BoundedChannelFullMode.DropOldest
+				});
+
+			var writer = queue.Writer; ;
+
+			//this write completes immediately.
+			await writer.WriteAsync(7);
+
+			//completes immediately
+			//7 is discarded unless a consumer has already retrieved it
+			await writer.WriteAsync(13);
+		}
+
 		/// <summary>
 		/// 9.9 pt4 Blockings the collection throttled producer.
 		/// skipping pt3 since it's a Nito method and I'm interested in native .net methods only

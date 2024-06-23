@@ -1,0 +1,355 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Practice\\ConcurrencyPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|c:\\practice\\concurrencypractice\\concurrencypractice\\chapter9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|solutionrelative:concurrencypractice\\chapter9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|c:\\practice\\concurrencypractice\\concurrencypractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|solutionrelative:concurrencypractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|c:\\practice\\concurrencypractice\\concurrencypractice\\dosomething.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|solutionrelative:concurrencypractice\\dosomething.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B918D996-0302-495A-A69D-4AC4F563ED37}|ConcurrencyTests\\ConcurrencyTests.csproj|c:\\practice\\concurrencypractice\\concurrencytests\\chapter7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B918D996-0302-495A-A69D-4AC4F563ED37}|ConcurrencyTests\\ConcurrencyTests.csproj|solutionrelative:concurrencytests\\chapter7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|c:\\practice\\concurrencypractice\\concurrencypractice\\mytimeoutclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|solutionrelative:concurrencypractice\\mytimeoutclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B918D996-0302-495A-A69D-4AC4F563ED37}|ConcurrencyTests\\ConcurrencyTests.csproj|c:\\practice\\concurrencypractice\\concurrencytests\\successhttpservicestub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B918D996-0302-495A-A69D-4AC4F563ED37}|ConcurrencyTests\\ConcurrencyTests.csproj|solutionrelative:concurrencytests\\successhttpservicestub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|c:\\practice\\concurrencypractice\\concurrencypractice\\failurehttpservicestub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|solutionrelative:concurrencypractice\\failurehttpservicestub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|c:\\practice\\concurrencypractice\\concurrencypractice\\ihttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}|ConcurrencyPractice\\ConcurrencyPractice.csproj|solutionrelative:concurrencypractice\\ihttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{065BF0AE-F166-4FE3-B6C3-5CC63DBD9176}|ConcurrencyPracticeUsingUI\\ConcurrencyPracticeUsingUI.csproj|c:\\practice\\concurrencypractice\\concurrencypracticeusingui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{065BF0AE-F166-4FE3-B6C3-5CC63DBD9176}|ConcurrencyPracticeUsingUI\\ConcurrencyPracticeUsingUI.csproj|solutionrelative:concurrencypracticeusingui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{065BF0AE-F166-4FE3-B6C3-5CC63DBD9176}|ConcurrencyPracticeUsingUI\\ConcurrencyPracticeUsingUI.csproj|c:\\practice\\concurrencypractice\\concurrencypracticeusingui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{065BF0AE-F166-4FE3-B6C3-5CC63DBD9176}|ConcurrencyPracticeUsingUI\\ConcurrencyPracticeUsingUI.csproj|solutionrelative:concurrencypracticeusingui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\Program.cs",
+              "RelativeDocumentMoniker": "ConcurrencyPractice\\Program.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\Program.cs",
+              "RelativeToolTip": "ConcurrencyPractice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:20:20.971Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chapter9.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\Chapter9.cs",
+              "RelativeDocumentMoniker": "ConcurrencyPractice\\Chapter9.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\Chapter9.cs",
+              "RelativeToolTip": "ConcurrencyPractice\\Chapter9.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowBgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T12:51:03.732Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:157:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:158:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoSomething.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\DoSomething.cs",
+              "RelativeDocumentMoniker": "ConcurrencyPractice\\DoSomething.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\DoSomething.cs",
+              "RelativeToolTip": "ConcurrencyPractice\\DoSomething.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPABAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:11:01.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chapter7.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyTests\\Chapter7.cs",
+              "RelativeDocumentMoniker": "ConcurrencyTests\\Chapter7.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyTests\\Chapter7.cs",
+              "RelativeToolTip": "ConcurrencyTests\\Chapter7.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA6wB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T17:22:48.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FailureHttpServiceStub.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\FailureHttpServiceStub.cs",
+              "RelativeDocumentMoniker": "ConcurrencyPractice\\FailureHttpServiceStub.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\FailureHttpServiceStub.cs",
+              "RelativeToolTip": "ConcurrencyPractice\\FailureHttpServiceStub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:10:09.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IHttpService.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\IHttpService.cs",
+              "RelativeDocumentMoniker": "ConcurrencyPractice\\IHttpService.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\IHttpService.cs",
+              "RelativeToolTip": "ConcurrencyPractice\\IHttpService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T17:56:30.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyTimeoutClass.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\MyTimeoutClass.cs",
+              "RelativeDocumentMoniker": "ConcurrencyPractice\\MyTimeoutClass.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPractice\\MyTimeoutClass.cs",
+              "RelativeToolTip": "ConcurrencyPractice\\MyTimeoutClass.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAlwBEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T17:53:57.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SuccessHttpServiceStub.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyTests\\SuccessHttpServiceStub.cs",
+              "RelativeDocumentMoniker": "ConcurrencyTests\\SuccessHttpServiceStub.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyTests\\SuccessHttpServiceStub.cs",
+              "RelativeToolTip": "ConcurrencyTests\\SuccessHttpServiceStub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T17:49:11.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPracticeUsingUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ConcurrencyPracticeUsingUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPracticeUsingUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ConcurrencyPracticeUsingUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAAwNsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:49:58.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPracticeUsingUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ConcurrencyPracticeUsingUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Practice\\ConcurrencyPractice\\ConcurrencyPracticeUsingUI\\MainWindow.xaml",
+              "RelativeToolTip": "ConcurrencyPracticeUsingUI\\MainWindow.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwB4AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-25T12:48:49.703Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

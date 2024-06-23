@@ -5,8 +5,8 @@ VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrencyPractice", "ConcurrencyPractice\ConcurrencyPractice.csproj", "{4AC63071-3FBA-48A9-AEE7-29CA8A9C917B}"
 EndProject
-#Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrencyPracticeUsingUI", "ConcurrencyPracticeUsingUI\ConcurrencyPracticeUsingUI.csproj", "{065BF0AE-F166-4FE3-B6C3-5CC63DBD9176}"
-#EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrencyPracticeUsingUI", "ConcurrencyPracticeUsingUI\ConcurrencyPracticeUsingUI.csproj", "{065BF0AE-F166-4FE3-B6C3-5CC63DBD9176}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyTests", "ConcurrencyTests\ConcurrencyTests.csproj", "{B918D996-0302-495A-A69D-4AC4F563ED37}"
 EndProject
 Global
