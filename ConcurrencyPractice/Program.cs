@@ -147,24 +147,7 @@ public class Program
 
 		//var result = mySynchronousImplementation.NotImplementedAsync<int>();
 		//await result;
-		//await mySynchronousImplementation.DoSomethingAsync();
-		//still has to be awaited to get value at the end
-		//var result = await mySynchronousImplementation.GetValueAsync();
-		//Console.WriteLine(result);
-
-		//var doSomething = new DoSomething();
-
-		//using(var client = new HttpClient())
-		//{
-		//	var result = await doSomething.DownloadStringWithTimeoutAsync(client, "https://httpbin.org/get");
-		//	//var result = await doSomething.DownloadStringWithRetriesAsync(client, "https://httpbin.org/get");
-		//	Console.WriteLine(result);
-		//}
-
-		//var result = await doSomething.DelayResultAsync<int>(10,new TimeSpan(0,0,10));
-		//Console.WriteLine(result);
-
-		//await doSomething.DoSomethingAsync();
+		
 	}
 
 }
