@@ -145,8 +145,7 @@ public class Program
 
 		//var result = await mySynchronousImplementation.GetValueAsync(new CancellationToken(false));
 
-		//var result = mySynchronousImplementation.NotImplementedAsync<int>();
-		//await result;
+		
 		
 	}
 

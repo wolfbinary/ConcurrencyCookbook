@@ -76,4 +76,31 @@ public class Chapter2
         //still has to be awaited to get value at the end
         return mySynchronousImplementation.GiveMeACompletedTask();
     }
+
+    /// <summary>
+    /// Recipe 2.2 pt3 Returning completed exception from task
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <returns></returns>
+    public async Task<T> NotImplementedAsync<T>()
+    {
+        var mySynchronousImplementation = new MySynchronousImplementation();
+
+        var result = mySynchronousImplementation.NotImplementedAsync<T>();
+        return await result;
+    }
+
+    /// <summary>
+    /// Recipe 2.2 pt4 Creating a task from an already cancelled task.
+    /// Creates a task from a CancellationToken that's already been cancelled.
+    /// </summary>
+    /// <returns></returns>
+    public async Task<int> GetValueAsync()
+    {
+        var mySynchronousImplementation = new MySynchronousImplementation();
+
+        var result = await mySynchronousImplementation.GetValueAsync(new CancellationToken(false));
+        return result;
+    }
+
 }
