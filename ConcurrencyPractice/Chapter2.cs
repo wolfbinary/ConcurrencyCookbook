@@ -103,4 +103,111 @@ public class Chapter2
         return result;
     }
 
+    /// <summary>
+    /// Recipe 2.2 pt5 Handling syncronous implmentations in async method
+    /// </summary>
+    /// <returns></returns>
+    public async Task CaptureSyncronousErrorAsync()
+    {
+        var mySynchronousImplementation = new MySynchronousImplementation();
+
+        await mySynchronousImplementation.DoSomethingAsync();
+    }
+
+    /// <summary>
+    /// Recipe 2.3 pt1 Reporting Progress
+    /// ie: You need to do something as progress on an operation occurs
+    /// </summary>
+    /// <returns></returns>
+    public async Task ReportProgressAsync()
+    {
+        var doSomething = new DoSomething();
+
+        await doSomething.CallMyMethodAsync();
+    }
+
+    /// <summary>
+    /// Recipe 2.4 pt1 Create a bunch of tasks then start them at the end.
+    /// Waiting for a set of tasks to complete, with no exceptions
+    /// </summary>
+    /// <returns></returns>
+    public async Task WaitForAllTasksAfterStartingAtSameTimeAsync()
+    {
+        var doSomething = new DoSomething();
+
+        using (var client = new HttpClient())
+        {
+            var urls = new List<string>() { "https://httpbin.org/get", "https://httpbin.org/get", "https://httpbin.org/get", "https://httpbin.org/get" };
+
+            var results = await doSomething.DownloadAllAsync(client, urls);
+
+            Console.WriteLine(results);
+        }
+    }
+
+    /// <summary>
+    /// Recipe 2.4 pt2 Create a bunch of tasks then start them at the end.
+    /// ie: like pt1 only with one exception
+    /// </summary>
+    /// <returns></returns>
+    public async Task WaitForAllTasksAfterStartingAtSameTimeWithExceptionAsync()
+    {
+        var doSomething = new DoSomething();
+
+        await doSomething.ObserveOneExceptionAsync();
+    }
+
+    /// <summary>
+    /// Recipe 2.4 pt3 Create a bunch of tasks then start them at the end.
+    /// ie: like pt2 only with multiple exceptions that are aggregated
+    /// </summary>
+    /// <returns></returns>
+    public async Task WaitForAllTasksAfterStartingAtSameTimeWithAggregateExceptionsAsync()
+    {
+        var doSomething = new DoSomething();
+        await doSomething.ObserveAllExceptionsAcync();
+    }
+
+
+    /// <summary>
+    /// Recipe 2.5 pt1 Waiting for Any Task to Complete
+    /// ie: several tasks, but only need to respond to one of them that's completed
+    /// </summary>
+    /// <returns></returns>
+    public async Task WaitForAnyTaskToCompleteAsync()
+    {
+        var doSomething = new DoSomething();
+
+        using (var client = new HttpClient())
+        {
+            var results = await doSomething.FirstRespondingUrlAsync(client, "https://httpbin.org/get", "https://httpbin.org/get");
+
+            Console.WriteLine(results);
+        }
+    }
+
+    /// <summary>
+    /// Recipe 2.6 pt1 Process tasks as they complete
+    /// As each task completes you want to independently do something with each of them.
+    /// Uses linq to objects and external function
+    /// </summary>
+    /// <returns></returns>
+    public async Task ProcessTasksAsTheyCompleteAsync()
+    {
+        var doSomething = new DoSomething();
+
+        await doSomething.ProcessTasksAsync();
+    }
+
+    /// <summary>
+    /// Recipe 2.6 pt2 Process tasks as they complete
+    /// Uses function based linq query and anonomous function
+    /// </summary>
+    /// <returns></returns>
+    public async Task ProcessTasksAsTheyCompleteAsync2()
+    {
+        var doSomething = new DoSomething();
+        
+        await doSomething.ProcessTasksAsync2();
+    }
 }

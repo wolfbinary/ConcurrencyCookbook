@@ -116,37 +116,7 @@ public class Program
 
 		//Console.WriteLine(result);
 
-		//await doSomething.ProcessTasksAsync2();
-		//await doSomething.ProcessTasksAsync();
-		//using (var client = new HttpClient())
-		//{
-		//	var results = await doSomething.FirstRespondingUrlAsync(client, "https://httpbin.org/get", "https://httpbin.org/get");
 
-		//	Console.WriteLine(results);
-		//}
-
-		//await doSomething.ObserveOneExceptionAsync();
-
-		//await doSomething.ObserveAllExceptionsAcync();
-
-		//using (var client = new HttpClient())
-		//{
-		//	var urls = new List<string>() { "https://httpbin.org/get", "https://httpbin.org/get", "https://httpbin.org/get", "https://httpbin.org/get" };
-
-		//	var results = await doSomething.DownloadAllAsync(client, urls);
-
-		//	Console.WriteLine(results);
-		//}
-		//await doSomething.CallMyMethodAsync();
-
-		//var mySynchronousImplementation = new MySynchronousImplementation();
-
-		//await mySynchronousImplementation.DoSomethingAsync();
-
-		//var result = await mySynchronousImplementation.GetValueAsync(new CancellationToken(false));
-
-		
-		
 	}
 
 }
