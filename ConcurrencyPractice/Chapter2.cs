@@ -207,7 +207,30 @@ public class Chapter2
     public async Task ProcessTasksAsTheyCompleteAsync2()
     {
         var doSomething = new DoSomething();
-        
+
         await doSomething.ProcessTasksAsync2();
+    }
+
+    /// <summary>
+    /// Recipe 2.7 pt 1 Resume on a different context
+    /// ie: if started from a UI thread don't return to that thread, return on a different 
+    /// </summary>
+    /// <returns></returns>
+    public async Task ProcessOnADifferentContextAsync()
+    {
+        var doSomething = new DoSomething();
+
+        await doSomething.ResumeWithoutContextASync();
+    }
+
+    /// <summary>
+    /// Recipe 2.8 pt 2 Result on calling context's thread
+    /// </summary>
+    /// <returns></returns>
+    public async Task ProcessOnSameContextAsync()
+    {
+        var doSomething = new DoSomething();
+
+        await doSomething.ResumeOnContextAsync();
     }
 }

@@ -9,7 +9,7 @@ namespace ConcurrencyPractice
 {
 	public class DoSomething
 	{
-		
+
 		//the event ahndler will >
 		/// <summary>
 		/// 6.1 pt 4 Makes the errors for event stream.
@@ -122,7 +122,7 @@ namespace ConcurrencyPractice
 		/// 5.6 Creates my custom block.
 		/// </summary>
 		/// <returns></returns>
-		public IPropagatorBlock<int,int> CreateMyCustomBlock()
+		public IPropagatorBlock<int, int> CreateMyCustomBlock()
 		{
 			var multiplyBlock = new TransformBlock<int, int>(item => item * 2);
 			var addBlock = new TransformBlock<int, int>(item => item + 2);
@@ -260,7 +260,7 @@ namespace ConcurrencyPractice
 		/// <param name="root">The root.</param>
 		public void ProcessTree(Node root)
 		{
-			var task = Task.Factory.StartNew(()=> Traverse(root),
+			var task = Task.Factory.StartNew(() => Traverse(root),
 				CancellationToken.None,
 				TaskCreationOptions.None,
 				TaskScheduler.Default);
@@ -270,7 +270,7 @@ namespace ConcurrencyPractice
 		void Traverse(Node current)
 		{
 			DoExpensiveActionOnNode(current);
-			if(current.Left != null)
+			if (current.Left != null)
 			{
 				Console.WriteLine("Left");
 				Task.Factory.StartNew(() => Traverse(current.Left),
@@ -278,10 +278,10 @@ namespace ConcurrencyPractice
 					TaskCreationOptions.AttachedToParent,
 					TaskScheduler.Default);
 			}
-			if(current.Right != null)
+			if (current.Right != null)
 			{
 				Console.WriteLine("Right");
-				Task.Factory.StartNew(()=> Traverse(current.Right),
+				Task.Factory.StartNew(() => Traverse(current.Right),
 					CancellationToken.None,
 					TaskCreationOptions.AttachedToParent,
 					TaskScheduler.Default);
@@ -300,7 +300,7 @@ namespace ConcurrencyPractice
 		/// <param name="cancellationToken">The cancellation token.</param>
 		public void DoAction20TimesWithCancellation(Action action, CancellationToken cancellationToken)
 		{
-			var actions = Enumerable.Repeat(action,20).ToArray();
+			var actions = Enumerable.Repeat(action, 20).ToArray();
 			Parallel.Invoke(new ParallelOptions { CancellationToken = cancellationToken }, actions);
 		}
 
@@ -718,13 +718,21 @@ namespace ConcurrencyPractice
 			return await Task.FromResult(seconds);
 		}
 
+		/// <summary>
+		/// 2.7 pt 1
+		/// </summary>
+		/// <returns></returns>
 		public async Task ResumeWithoutContextASync()
 		{
 			await Task.Delay(TimeSpan.FromSeconds(1)).ConfigureAwait(false);
 
 		}
 
-		async Task ResumeOnContextAsync()
+		/// <summary>
+		/// 2.7 pt2
+		/// </summary>
+		/// <returns></returns>
+		public async Task ResumeOnContextAsync()
 		{
 			await Task.Delay(TimeSpan.FromSeconds(1));
 
