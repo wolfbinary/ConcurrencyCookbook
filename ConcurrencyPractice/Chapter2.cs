@@ -233,4 +233,42 @@ public class Chapter2
 
         await doSomething.ResumeOnContextAsync();
     }
+
+
+    /// <summary>
+    /// Recipe 2.9 pt 1 and 2 handling exceptions using async and Task
+    /// </summary>
+    /// <returns></returns>
+    public async Task HandleExceptionsAsyncTaskMethodsAsync()
+    {
+        var doSomething = new DoSomething();
+
+        await doSomething.TestThrowExceptionAsync();
+    }
+
+    /// <summary>
+    /// Recipe 2.9 Handle exceptions from async void methods
+    /// </summary>
+    /// <returns></returns>
+    public async Task HandleExceptionsAsyncVoidAsync()
+    {
+        /*
+
+        Best not to propogate exceptions out of async avoid methods and handle them inside instead
+        sealed class MyAsyncCommand : ICommand
+        {
+            async void ICommand.Execute(object parameter)
+            {
+            await Execute parameter();
+            }
+
+            public async Task Execute (object parameter)
+            {
+                //Asychronous command implementation goes here.
+            }
+
+            //other members follow here
+        }
+        */
+    }
 }

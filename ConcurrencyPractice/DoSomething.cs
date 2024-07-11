@@ -666,6 +666,10 @@ namespace ConcurrencyPractice
 			return 13;
 		}
 
+		/// <summary>
+		/// 2.8 pt 1 and 2 Handling Exceptions from async
+		/// </summary>
+		/// <returns></returns>
 		public async Task TestThrowExceptionAsync()
 		{
 			var task = ThrowExceptionAsync();
