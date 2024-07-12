@@ -513,7 +513,10 @@ namespace ConcurrencyPractice
 		}
 
 		/// <summary>
-		/// 3.3 pt 1 Processes the slow range.
+		/// 3.3 pt 1, 2 Processes the slow range.
+		/// You can either use WhereAwait and get an asynchronous stream or
+		/// use IAsyncEnumerable<T> as a declare type it returns into to get 
+		/// the stream with Where and then interate the same in both ways. 
 		/// </summary>
 		public async Task ProcessSlowRangeAsync()
 		{
