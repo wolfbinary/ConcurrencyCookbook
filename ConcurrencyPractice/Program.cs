@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Diagnostics;
+using System.Security.Cryptography;
 using ConcurrencyPractice;
 
 public class Program
@@ -8,9 +10,13 @@ public class Program
 	{
 		var chapter9 = new Chapter9();
 
-		await Task.Run(async () => { await chapter9.BufferBlockProducerAsync(); });
+		var divideAndConquerArray = new DivideAndConquerArray();
+		var dirsToDivide = divideAndConquerArray.MakeFakeDirsList();
+		var dirsList = divideAndConquerArray.DivideUpArray(dirsToDivide,5);
 
-		await Task.Run(async () => { await chapter9.BufferBlockConsumerAsync(); });
+		// await Task.Run(async () => { await chapter9.BufferBlockProducerAsync(); });
+
+		// await Task.Run(async () => { await chapter9.BufferBlockConsumerAsync(); });
 
 		//await Task.Run(async () => { await chapter9.ChannelProducerAsync(); });
 
@@ -110,55 +116,7 @@ public class Program
 
 		//Console.WriteLine(result);
 
-		//await doSomething.ProcessTasksAsync2();
-		//await doSomething.ProcessTasksAsync();
-		//using (var client = new HttpClient())
-		//{
-		//	var results = await doSomething.FirstRespondingUrlAsync(client, "https://httpbin.org/get", "https://httpbin.org/get");
 
-		//	Console.WriteLine(results);
-		//}
-
-		//await doSomething.ObserveOneExceptionAsync();
-
-		//await doSomething.ObserveAllExceptionsAcync();
-
-		//using (var client = new HttpClient())
-		//{
-		//	var urls = new List<string>() { "https://httpbin.org/get", "https://httpbin.org/get", "https://httpbin.org/get", "https://httpbin.org/get" };
-
-		//	var results = await doSomething.DownloadAllAsync(client, urls);
-
-		//	Console.WriteLine(results);
-		//}
-		//await doSomething.CallMyMethodAsync();
-
-		//var mySynchronousImplementation = new MySynchronousImplementation();
-
-		//await mySynchronousImplementation.DoSomethingAsync();
-
-		//var result = await mySynchronousImplementation.GetValueAsync(new CancellationToken(false));
-
-		//var result = mySynchronousImplementation.NotImplementedAsync<int>();
-		//await result;
-		//await mySynchronousImplementation.DoSomethingAsync();
-		//still has to be awaited to get value at the end
-		//var result = await mySynchronousImplementation.GetValueAsync();
-		//Console.WriteLine(result);
-
-		//var doSomething = new DoSomething();
-
-		//using(var client = new HttpClient())
-		//{
-		//	var result = await doSomething.DownloadStringWithTimeoutAsync(client, "https://httpbin.org/get");
-		//	//var result = await doSomething.DownloadStringWithRetriesAsync(client, "https://httpbin.org/get");
-		//	Console.WriteLine(result);
-		//}
-
-		//var result = await doSomething.DelayResultAsync<int>(10,new TimeSpan(0,0,10));
-		//Console.WriteLine(result);
-
-		//await doSomething.DoSomethingAsync();
 	}
 
 }

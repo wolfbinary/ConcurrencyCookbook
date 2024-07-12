@@ -59,14 +59,14 @@ namespace ConcurrencyPractice
 			return Task.FromException<T>(new NotImplementedException());
 		}
 
-		///// <summary>
-		///// 2.2.pt2 Does something asynchronous.
-		///// </summary>
-		///// <returns></returns>
-		//public Task DoSomethingAsync()
-		//{
-		//	return Task.CompletedTask;
-		//}
+		/// <summary>
+		/// 2.2.pt2 Does something asynchronous.
+		/// </summary>
+		/// <returns></returns>
+		public Task GiveMeACompletedTask()
+		{
+			return Task.CompletedTask;
+		}
 		/// <summary>
 		/// 2.2 pt1 Gets the value asynchronous.
 		/// </summary>

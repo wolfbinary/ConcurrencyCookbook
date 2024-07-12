@@ -31,6 +31,7 @@ C:/Practice/ConcurrencyPractice/ConcurrencyPractice/obj/Debug/net8.0/ref/Concurr
 /home/wolfbinary/codingProjects/ConcurrencyCookbook/ConcurrencyPractice/obj/Debug/net8.0/ConcurrencyPractice.AssemblyInfoInputs.cache
 /home/wolfbinary/codingProjects/ConcurrencyCookbook/ConcurrencyPractice/obj/Debug/net8.0/ConcurrencyPractice.AssemblyInfo.cs
 /home/wolfbinary/codingProjects/ConcurrencyCookbook/ConcurrencyPractice/obj/Debug/net8.0/ConcurrencyPractice.csproj.CoreCompileInputs.cache
+/home/wolfbinary/codingProjects/ConcurrencyCookbook/ConcurrencyPractice/obj/Debug/net8.0/ConcurrencyPractice.sourcelink.json
 /home/wolfbinary/codingProjects/ConcurrencyCookbook/ConcurrencyPractice/obj/Debug/net8.0/Concurre.BE553050.Up2Date
 /home/wolfbinary/codingProjects/ConcurrencyCookbook/ConcurrencyPractice/obj/Debug/net8.0/ConcurrencyPractice.dll
 /home/wolfbinary/codingProjects/ConcurrencyCookbook/ConcurrencyPractice/obj/Debug/net8.0/refint/ConcurrencyPractice.dll
