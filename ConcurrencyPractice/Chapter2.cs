@@ -271,4 +271,90 @@ public class Chapter2
         }
         */
     }
+
+    /// <summary>
+    /// Recipe 2.10 pt1 
+    /// Where a synchronous result can be returned and asynchronous behavior is more rare.
+    /// Generally you should be using Task<T> and not ValueTask<T> unless profiling suggests you'd see a performance increase.
+    /// </summary>
+    /// <returns></returns>
+    public async Task<int> CreatingAValueTaskAsync()
+    {
+        var doSomething = new DoSomething();
+
+        var result = await doSomething.MethodValueTaskAsync();
+        return result;
+    }
+
+    /// <summary>
+    /// Recipe 2.10 pt2
+    /// Run an async method synchronously conditionally.
+    /// </summary>
+    /// <returns></returns>
+    public async Task<int> CreateSlowValueTaskAsync()
+    {
+
+        var doSomething = new DoSomething();
+        doSomething.CanBehaveSynchronously = true;
+
+        var result = await doSomething.MethodValueTaskPt2Async();
+        return result;
+    }
+
+    /// <summary>
+    /// Recipe 2.11 pt1
+    /// Most common way is to do just await the method.
+    /// </summary>
+    /// <returns></returns>
+    public async Task<int> ConsumingValueTaskAsync()
+    {
+        var doSomething = new DoSomething();
+
+        var result = await doSomething.ConsumingValueTaskAsync();
+
+        return result;
+    }
+
+    /// <summary>
+    /// Recipe 2.11 pt2
+    /// await's the task after call to method.
+    /// </summary>
+    /// <returns></returns>
+    public async Task<int> ConsumingValueTaskWaitingAsync()
+    {
+        var doSomething = new DoSomething();
+
+        var result = await doSomething.ConsumingValueTaskAsync2();
+
+        return result;
+    }
+
+
+    /// <summary>
+    /// Recipe 2.11 pt3
+    /// Uses AsTask to convert the ValueTask to a Task
+    /// </summary>
+    /// <returns></returns>
+    public async Task<int> ConsumingValueTaskConvertingToTaskAsync()
+    {
+        var doSomething = new DoSomething();
+
+        var result = await doSomething.ConsumingValueTaskAsync3();
+
+        return result;
+    }
+
+    /// <summary>
+    /// Recipe 2.11 pt4
+    /// ValueTasks can only have AsTask() called on them once.
+    /// </summary>
+    /// <returns></returns>
+    public async Task<int> ConsumingMultipleValueTasksConvertedToTaskAsync()
+    {
+        var doSomething = new DoSomething();
+
+        var result = await doSomething.ConsumingValueTaskAsync4();
+
+        return result;
+    }
 }
