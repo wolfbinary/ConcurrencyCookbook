@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConcurrencyPractice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7783fb2f4ee86db454e7b86aa00cf99603c3fe6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa9490d52504345188c8a6bfa3ed256a3867365e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConcurrencyPractice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConcurrencyPractice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
