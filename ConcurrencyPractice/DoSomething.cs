@@ -234,6 +234,7 @@ namespace ConcurrencyPractice
 		{
 			return values.AsParallel().Sum();
 		}
+		
 		/// <summary>
 		/// 4.5 pt2 Multiplies the by2 order of elements preserved
 		/// </summary>
@@ -253,6 +254,29 @@ namespace ConcurrencyPractice
 		{
 			return values.AsParallel().Select(value => value * 2);
 		}
+
+
+		/// <summary>
+		/// 4.5 pt2 Example of ContinuationWith for tasks that get created 
+		/// after the parent one and are not linked.
+		/// </summary>
+		public void TaskOnContinuation()
+		{
+			Task task = Task.Factory.StartNew(() =>
+				Thread.Sleep(TimeSpan.FromSeconds(2)),
+				CancellationToken.None,
+				TaskCreationOptions.None,
+				TaskScheduler.Default
+			);
+
+			//t is for task
+			Task continuation = task.ContinueWith(
+				t => Trace.WriteLine("Task is done"),
+			CancellationToken.None,
+			TaskContinuationOptions.None,
+			TaskScheduler.Default);
+		}
+
 
 		/// <summary>
 		/// 4.4 Processes the tree.
