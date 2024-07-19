@@ -60,4 +60,12 @@ public class Chapter5
     {
         _doSomething.ParallelProcessingDataflowBlocks();
     }
+
+    /// <summary>
+    /// Recipe 5.6 creating custom blocks
+    /// </summary>
+    public void CustomBlocksExample()
+    {
+        _doSomething.CreateMyCustomBlock();
+    }
 }
