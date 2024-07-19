@@ -136,6 +136,34 @@ namespace ConcurrencyPractice
 		}
 
 		/// <summary>
+		/// 5.5 Parallel Processing example
+		/// </summary>
+		public void ParallelProcessingDataflowBlocks()
+		{
+			var multiplyBlock = new TransformBlock<int, int>(item => item * 2,
+			new ExecutionDataflowBlockOptions
+			{
+				MaxDegreeOfParallelism = DataflowBlockOptions.Unbounded
+			});
+			var subtractBlock = new TransformBlock<int, int>(item => item - 2);
+			multiplyBlock.LinkTo(subtractBlock);
+		}
+
+		/// <summary>
+		/// 5.4 Throttling Blocks
+		/// </summary>
+		public void ThrottlingBlocks()
+		{
+			var sourceBlock = new BufferBlock<int>();
+			var options = new DataflowBlockOptions { BoundedCapacity = 1 };
+			var targetBlockA = new BufferBlock<int>(options);
+			var targetBlockB = new BufferBlock<int>(options);
+
+			sourceBlock.LinkTo(targetBlockA);
+			sourceBlock.LinkTo(targetBlockB);
+		}
+
+		/// <summary>
 		/// 5.3 Uns the link example.
 		/// </summary>
 		public void UnLinkExample()
@@ -234,7 +262,7 @@ namespace ConcurrencyPractice
 		{
 			return values.AsParallel().Sum();
 		}
-		
+
 		/// <summary>
 		/// 4.5 pt2 Multiplies the by2 order of elements preserved
 		/// </summary>
